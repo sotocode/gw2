@@ -1,3 +1,4 @@
+/* CSS Reset */
 html, body, div, span, applet, object, iframe,
 h1, h2, h3, h4, h5, h6, p, blockquote, pre,
 a, abbr, acronym, address, big, cite, code,
@@ -40,4 +41,121 @@ q:before, q:after {
 table {
 	border-collapse: collapse;
 	border-spacing: 0;
+}
+
+/* Custom CSS */
+body {
+	background-image: url(../images/clouds_background.jpg);
+}
+
+#container {
+	background-color: #c0c0c0;
+    width: 770px;
+    margin: 20px auto;
+
+}
+
+header {
+	background-color: #224969;
+	padding-bottom: 17px;
+}
+
+nav {
+	background-color: #c0c0c0;
+	font-family: sans-serif;
+	font-size: 0.8em;
+	color: #ffffff;
+	text-align: center;
+	padding: 10px 0 28px;
+}
+
+header h1 {
+	font-family: 'Henny Penny', cursive;
+	font-size: 1.8em;
+	color: #ffffff;
+	padding: 15px 0 15px 20px;
+}
+
+section article h2 {
+	font-family: Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 1.2em;
+	font-weight: 600;
+	color: #ca2b48;
+	border-bottom: #ca2b48 solid 2px;
+	padding-bottom: 15px;
+	margin-bottom: 15px;
+}
+
+section article h3 {
+	font-family: Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 1em;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+section aside h3 {
+	font-family: Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 1em;
+	font-weight: 600;
+	margin-bottom: 10px;
+	text-shadow: 2px 2px #ffffff;
+}
+
+p {
+	font-family: Calibri, 'Trebuchet MS', sans-serif;
+	font-size: 0.8em;
+	line-height: 1.1em;
+	margin-bottom: 10px;
+}
+
+section article {
+    background-color: #eeeeee;
+    width: 520px;
+    float: left;
+	padding: 15px 20px 20px 20px;
+}
+
+section article figure {
+    float: right;
+}
+
+section figure {
+    margin: 0 0 0 15px;
+}
+
+section article figure img{
+    width: 225px;
+}
+
+figcaption {
+	font-family: Calibri, 'Trebuchet MS', sans-serif;
+	font-style: italic;
+	font-size: 0.8em;
+	text-align: center;
+	color: #ca2b48;
+	margin: 10px 0;
+}
+
+section aside {
+    background-color: #c0c0c0;
+    width: 170px;
+    float: right;
+	padding: 20px;
+}
+
+section aside figure img {
+    width: 130px;
+	display: block;
+	margin: 0 auto;
+	padding-top: 5px;
+}
+
+footer {
+	clear: both;
+	background-color: #ca2b48;
+	font-family: Calibri, 'Trebuchet MS', sans-serif;
+	color: #ffffff;
+	text-align: center;
+	font-style: italic;
+	padding: 20px 20px 10px 20px;
 }
