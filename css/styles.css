@@ -43,30 +43,59 @@ table {
 	border-spacing: 0;
 }
 
-/* Custom CSS */
+/*---------------------------------
+
+Universal Styling
+
+----------------------------------*/
+
 body {
 	background-image: url(../images/clouds_background.jpg);
+	height: 100vh;
+	background-position: center;
+	background-size: cover;
+	font-family: Calibri, 'Trebuchet MS', sans-serif;
 }
 
 #container {
 	background-color: #c0c0c0;
     width: 770px;
     margin: 20px auto;
-
 }
+
+p {
+	font-size: 0.8em;
+	line-height: 1.1em;
+	margin-bottom: 10px;
+}
+
+h3 {
+	font-size: 1em;
+	font-weight: 600;
+	margin-bottom: 10px;
+}
+
+section figure {
+    margin: 0 0 0 15px;
+}
+
+figcaption {
+	font-style: italic;
+	font-size: 0.8em;
+	text-align: center;
+	color: #ca2b48;
+	margin: 10px 0;
+}
+
+/*---------------------------------
+
+Header
+
+----------------------------------*/
 
 header {
 	background-color: #224969;
 	padding-bottom: 17px;
-}
-
-nav {
-	background-color: #c0c0c0;
-	font-family: sans-serif;
-	font-size: 0.8em;
-	color: #ffffff;
-	text-align: center;
-	padding: 10px 0 28px;
 }
 
 header h1 {
@@ -76,36 +105,56 @@ header h1 {
 	padding: 15px 0 15px 20px;
 }
 
+/*---------------------------------
+
+Navigation
+
+----------------------------------*/
+
+nav {
+	background-color: #c0c0c0;
+	font-size: 0.8em;
+	color: #ffffff;
+	text-align: center;
+	height: 60px;
+}
+
+nav details {
+	display: inline-block;
+	padding: 10px 0 0;
+}
+
+nav details:hover{
+	cursor: pointer;
+	color: #224969;
+}
+
+nav details li {
+	margin-top: 3px;
+}
+
+nav details li a {
+	color: #ffffff;
+	text-decoration: none;
+}
+
+nav details li a:hover {
+	color: #224969;
+}
+
+/*---------------------------------
+
+Article Section
+
+----------------------------------*/
+
 section article h2 {
-	font-family: Calibri, 'Trebuchet MS', sans-serif;
 	font-size: 1.2em;
 	font-weight: 600;
 	color: #ca2b48;
 	border-bottom: #ca2b48 solid 2px;
 	padding-bottom: 15px;
-	margin-bottom: 15px;
-}
-
-section article h3 {
-	font-family: Calibri, 'Trebuchet MS', sans-serif;
-	font-size: 1em;
-	font-weight: 600;
-	margin-bottom: 10px;
-}
-
-section aside h3 {
-	font-family: Calibri, 'Trebuchet MS', sans-serif;
-	font-size: 1em;
-	font-weight: 600;
-	margin-bottom: 10px;
-	text-shadow: 2px 2px #ffffff;
-}
-
-p {
-	font-family: Calibri, 'Trebuchet MS', sans-serif;
-	font-size: 0.8em;
-	line-height: 1.1em;
-	margin-bottom: 10px;
+	margin-bottom: 15px;;
 }
 
 section article {
@@ -113,34 +162,32 @@ section article {
     width: 520px;
     float: left;
 	padding: 15px 20px 20px 20px;
+	min-height: 560px;
 }
 
 section article figure {
     float: right;
 }
 
-section figure {
-    margin: 0 0 0 15px;
-}
-
 section article figure img{
     width: 225px;
 }
 
-figcaption {
-	font-family: Calibri, 'Trebuchet MS', sans-serif;
-	font-style: italic;
-	font-size: 0.8em;
-	text-align: center;
-	color: #ca2b48;
-	margin: 10px 0;
-}
+/*---------------------------------
+
+Aside Section
+
+----------------------------------*/
 
 section aside {
     background-color: #c0c0c0;
     width: 170px;
     float: right;
 	padding: 20px;
+}
+
+section aside h3 {
+	text-shadow: 2px 2px #ffffff;
 }
 
 section aside figure img {
@@ -150,10 +197,15 @@ section aside figure img {
 	padding-top: 5px;
 }
 
+/*---------------------------------
+
+Footer
+
+----------------------------------*/
+
 footer {
 	clear: both;
 	background-color: #ca2b48;
-	font-family: Calibri, 'Trebuchet MS', sans-serif;
 	font-size: 1.1em;
 	color: #ffffff;
 	text-align: center;
