@@ -148,6 +148,14 @@ Article Section
 
 ----------------------------------*/
 
+section article {
+    background-color: #eeeeee;
+    width: 520px;
+    float: left;
+	padding: 15px 20px 20px 20px;
+	min-height: 560px;
+}
+
 section article h2 {
 	font-size: 1.2em;
 	font-weight: 600;
@@ -155,14 +163,6 @@ section article h2 {
 	border-bottom: #ca2b48 solid 2px;
 	padding-bottom: 15px;
 	margin-bottom: 15px;;
-}
-
-section article {
-    background-color: #eeeeee;
-    width: 520px;
-    float: left;
-	padding: 15px 20px 20px 20px;
-	min-height: 560px;
 }
 
 section article figure {
