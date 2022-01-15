@@ -56,9 +56,10 @@ Universal Styling
 
 body {
 	background-image: url(../images/clouds_background.jpg);
-	height: 100vh;
 	background-position: center;
 	background-size: cover;
+	background-repeat: no-repeat;
+	height: 100vh;
 	font-family: 'Calibri', 'Trebuchet MS', sans-serif;
 }
 
