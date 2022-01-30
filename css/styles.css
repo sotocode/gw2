@@ -65,13 +65,13 @@ body {
 
 #container {
 	background-color: #bdb7b7;
-    width: 770px;
+    max-width: 770px;
     margin: 20px auto;
 }
 
 p {
 	font-size: 0.9em;
-	line-height: 1em;
+	line-height: 1.1em;
 	margin-bottom: 10px;
 	color: #000000;
 }
@@ -155,10 +155,9 @@ Article Section
 
 section article {
     background-color: #e7e7e7;
-    width: 520px;
     float: left;
 	padding: 15px 20px 20px 20px;
-	min-height: 560px;
+
 }
 
 section article h2 {
@@ -187,7 +186,6 @@ Aside Section
 
 section aside {
     background-color: #bdb7b7;
-    width: 170px;
     float: right;
 	padding: 20px;
 }
@@ -220,4 +218,54 @@ footer p {
 	color: #ffffff;
 	text-align: center;
 	font-style: italic;
+}
+
+/*---------------------------------
+
+Media Queries
+
+----------------------------------*/
+
+@media (max-width: 450px) {
+	section article figure {
+		display: inline-block !important;
+		float: none;
+		margin-left: 0;
+	}
+	section article figure img {
+		width: 100%;
+	}
+	section aside figure img {
+		width: 70%;
+	}
+
+}
+
+@media (max-width: 720px) {
+
+	section article {
+		margin-bottom: 20px;
+	}
+	section aside {
+		float: none;
+	}
+	section article figure img{
+		float: right;
+		margin-left: 15px;
+		margin-bottom: 10px;
+	}
+
+}
+
+
+@media (min-width: 721px) {
+	section article {
+		width: 68%;
+		float: left;
+	}
+	section aside {
+		width: 20%;
+		float: right;
+	}
+
 }
