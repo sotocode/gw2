@@ -157,7 +157,6 @@ section article {
     background-color: #e7e7e7;
     float: left;
 	padding: 15px 20px 20px 20px;
-
 }
 
 section article h2 {
@@ -238,11 +237,9 @@ Media Queries
 	section aside figure img {
 		width: 70%;
 	}
-
 }
 
 @media (max-width: 720px) {
-
 	section article {
 		margin-bottom: 20px;
 	}
@@ -254,9 +251,7 @@ Media Queries
 		margin-left: 15px;
 		margin-bottom: 10px;
 	}
-
 }
-
 
 @media (min-width: 721px) {
 	section article {
